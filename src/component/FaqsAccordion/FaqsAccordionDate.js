@@ -128,7 +128,7 @@ export const initialState = 	[
 					{
 							question:"What criteria do you use?",
 							answer:"We provide support for those whose total household income are at 200% or less of the " +
-									"federal poverty guidelines, or whose medical debt is 2% or more of their household annual " +
+									"federal poverty guidelines, or whose medical debt is 10% or more of their household annual " +
 									"income.",
 							showAnswer:true
 					},

@@ -2,10 +2,13 @@ import BannerSection from "../../component/BannerSection";
 import Header from "../../component/Header";
 import ProgramsHeaderWrap from "../../component/ProgramsHeaderWrap";
 import ProgramsPoint from "../../component/ProgramsPoint";
-export const metadata = {
-  title: 'Medical Bill Forgiveness, Debt Relief Programs, Fundraising Ideas',
-  description: 'Clean SlateZ - Our Application and Wholesale programs can effectively wipe off medical debt for qualified individuals. Please consider donating today.',
-	keywords:"payment plan for medical bills, medical debt forgiveness programs, medical bill forgiveness programs, medical debt relief programs"
+
+export async function generateMetadata({ params }) {
+  return {
+		title: 'Medical Bill Forgiveness, Debt Relief Programs, Fundraising Ideas',
+		description: 'Clean SlateZ - Our Application and Wholesale programs can effectively wipe off medical debt for qualified individuals. Please consider donating today.',
+		keywords:"payment plan for medical bills, medical debt forgiveness programs, medical bill forgiveness programs, medical debt relief programs"
+  }
 }
 const Programs = () => {
 	return (
