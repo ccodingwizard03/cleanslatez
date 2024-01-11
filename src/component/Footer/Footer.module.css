@@ -1,0 +1,122 @@
+.whole{
+	background-image: url("/assets/images/Image5.webp");
+	padding-top: 44px;
+	padding-bottom: 44px;
+}
+.main{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: flex-end;
+}
+
+.left{
+	display: flex;
+	flex-direction: column;
+	margin-right: 40px;
+}
+
+.middle{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 60px;
+	margin-right: 90px;
+}
+.right{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 34px;
+}
+.text{
+	color: rgba(255, 255, 255, 0.80);
+	font-family: Poppins_SemiBold,sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	margin-bottom: 11px;
+	cursor: pointer;
+}
+.title{
+	margin-bottom: 4px;
+	color: #FFF;
+	font-family: Poppins_SemiBold,sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
+.logo{
+	margin-bottom: 26px;
+}
+
+.subTitle{
+	color: rgba(255, 255, 255, 0.80);
+	font-family: Poppins_SemiBold, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 143%;
+	margin-bottom: 18px;
+	display: flex;
+	align-items: center;
+}
+.subTitleAddress{
+	color: rgba(255, 255, 255, 0.80);
+	font-family: Poppins_SemiBold, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 143%;
+	margin-bottom: 12px;
+	display: flex;
+	align-items: center;
+}
+
+.iconStyle{
+	margin-right: 12px;
+}
+
+.address{
+	color: rgba(255, 255, 255, 0.80);
+	font-family: Poppins_SemiBold, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 171.5%;
+	max-width: 189px;
+	width: 100%;
+	white-space:initial;
+}
+.line{
+	display: flex;
+	align-items: center;
+	gap: 18px;
+	margin-top: 18px;
+}
+
+.icons{
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 767px) {
+	.whole {
+			padding-top: 30px;
+			padding-bottom: 30px;
+	}
+	.main{
+			flex-wrap: wrap;
+			align-items: center;
+			justify-content: unset;
+	}
+
+	.left{
+		margin-bottom: 20px;
+	}
+
+	.middle{
+		 margin-bottom: 20px;
+	}
+	.right{
+			margin-bottom: 0;
+	}
+}

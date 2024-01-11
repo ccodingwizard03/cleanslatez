@@ -1,0 +1,262 @@
+* {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+body{
+  background-color:#FFFFFF;
+  min-height: 100vh;
+  width: 100%;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color:inherit;
+  display: block;
+  font-size: inherit;
+}
+.container{
+  max-width: 1232px;
+  width: 100%;
+  margin: 0 auto;
+}
+.main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.max_width{
+  max-width: 246px;
+  width: 100%;
+}
+
+.max_width .swiper-pagination{
+  display: none;
+}
+
+.max_width .swiper-button-prev{
+  width: 44px;
+  height: 44px;
+  border-radius: 49px;
+  background: linear-gradient(128deg, #3C9176 -21.79%, rgba(58, 125, 226,0.50) 164.28%);
+}
+
+.max_width .swiper-button-prev:after{
+  font-size: 13px !important;
+  color:#FFF !important;
+}
+
+.max_width .swiper-button-next {
+  width: 44px;
+  height: 44px;
+  border-radius: 49px;
+  background: linear-gradient(128deg, #3C9176 -21.79%, rgba(58, 125, 226,0.50) 164.28%);
+}
+
+.max_width .swiper-button-next:after{
+  font-size: 13px !important;
+  color:#FFF !important;
+}
+
+.imgSwiper{
+  border-radius: 40px;
+  max-width: 246px;
+  width: 100%;
+}
+
+.select-search-container{
+  max-width: 707px !important;
+  width: 100% !important;
+  margin-bottom: 24px;
+}
+.select-search-container input{
+  max-width: 702px !important;
+  width: 100% !important;
+  padding: 12px 14px 12px 20px;
+  border-radius: 59px;
+  background: #FFF;
+  font-family: Inter_Regular, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #393122;
+  border:  none
+}
+.select-search-container:focus{
+  outline: none;
+}
+.select-search-select{
+  max-width: 707px !important;
+  width: 100%;
+  border: none !important;
+  background: #FFF;
+  font-family: Inter_Regular, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #393122 !important;
+  border-radius: 59px;
+}
+.err{
+  max-width: 409px;
+  width: 100%;
+  padding: 11px 20px;
+  box-sizing: border-box;
+  border-radius: 59px;
+  background: #FFF;
+  height: 54px;
+  border: 2px solid  #CB2D25 !important;
+}
+.err input{
+  font-family: Poppins_Regular, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  /*line-height: 164.523%;*/
+  letter-spacing: 0.16px;
+  color:rgba(55, 55, 55, 0.90);
+}
+.err input::placeholder{
+  color: rgba(16, 47, 94, 0.60);
+  opacity: 1;
+}
+.dateField{
+  max-width: 409px;
+  width: 100%;
+  border: none;
+  padding: 11px 20px;
+  box-sizing: border-box;
+  border-radius: 59px;
+  background: #FFF;
+  height: 50px;
+}
+.dateField input{
+  font-family: Poppins_Regular, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.16px;
+  color:rgba(55, 55, 55, 0.90);
+}
+.err fieldset{
+  border: none;
+}
+
+.dateField input::placeholder{
+  color: rgba(16, 47, 94, 0.60);
+  opacity: 1;
+}
+.dateField fieldset{
+  border: none;
+}
+
+.err p{
+  font-family:  Poppins_Regular, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #CB2D25 !important;
+}
+
+@media only screen  and (min-width: 426px) and (max-width: 1270px) {
+  .container{
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .container {
+      padding-left: 12px;
+      padding-right: 12px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .main {
+      flex-direction: column;
+      align-items: unset;
+  }
+}
+
+ @font-face {
+  font-family: Poppins_Bold;
+  src: url('/assets/fonts/Poppins/Poppins-Bold.ttf');
+}
+
+@font-face {
+  font-family: Poppins_Italic;
+  src: url('/assets/fonts/Poppins/Poppins-Italic.ttf');
+}
+
+@font-face {
+  font-family: Poppins_Light;
+  src: url('/assets/fonts/Poppins/Poppins-Light.ttf');
+}
+@font-face {
+  font-family: Poppins_SemiBold;
+  src: url('/assets/fonts/Poppins/Poppins-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: Poppins_Medium;
+  src: url('/assets/fonts/Poppins/Poppins-Medium.ttf');
+}
+
+@font-face {
+  font-family: Poppins_Regular;
+  src: url('/assets/fonts/Poppins/Poppins-Regular.ttf');
+}
+@font-face {
+  font-family: Poppins_Thin;
+  src: url('/assets/fonts/Poppins/Poppins-Thin.ttf');
+}
+
+@font-face {
+  font-family: Inter_Light;
+  src: url('/assets/fonts/Inter/Inter_Light.ttf');
+}
+
+@font-face {
+  font-family: Inter_Thin;
+  src: url('/assets/fonts/Inter/Inter_Thin.ttf');
+}
+
+@font-face {
+  font-family: Inter_Regular;
+  src: url('/assets/fonts/Inter/Inter_Regular.ttf');
+}
+
+@font-face {
+  font-family: Inter_Medium;
+  src: url('/assets/fonts/Inter/Inter_Medium.ttf');
+}
+
+@font-face {
+  font-family: Inter_SemiBold;
+  src: url('/assets/fonts/Inter/Inter_SemiBold.ttf');
+}
+
+@font-face {
+  font-family: Inter_Bold;
+  src: url('/assets/fonts/Inter/Inter_Bold.ttf');
+}
+
+@font-face {
+  font-family:Inter_ExtraBold;
+  src: url('/assets/fonts/Inter/Inter_ExtraBold.ttf');
+}

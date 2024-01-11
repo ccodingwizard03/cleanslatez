@@ -1,0 +1,12 @@
+export const HOME = "/";
+export const HOME_HOME = "/home";
+export const HOME_DOT = "/.";
+export const ABOUT = "/about-us";
+export const PROGRAMS = '/medical-debt-relief-programs';
+export const DONATE = '/medical-donations';
+export const DONATE_NOW = '/donate-now';
+export const FAQS = '/faqs'
+export const AID = '/aid-application'
+export const AID_SHORT = '/aid-application/short-term';
+export const AID_LONG = '/aid-application/long-term';
+export const VOLUNTEER = '/volunteer'

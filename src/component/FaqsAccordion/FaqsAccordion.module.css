@@ -1,0 +1,151 @@
+.title{
+	color: #102F5E;
+	text-align: left;
+	font-family: Poppins_Medium,sans-serif;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 153.023%;
+	letter-spacing: 0.48px;
+	margin-bottom: 7px;
+	margin-top: 96px;
+}
+
+.typeWhole{
+	width: 100%;
+	border-radius: 63px;
+	background: rgba(84, 153, 159, 0.60);
+	padding: 16px 0 16px 20px;
+	border: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+	cursor: pointer;
+}
+.typeLeft{
+	color: #FFF;
+	font-family: Poppins_SemiBold, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 136.023%;
+	letter-spacing: 0.18px;
+}
+.typeRight{
+	position: absolute;
+	right: 0;
+	top: 0;
+	cursor: pointer;
+}
+.inside{
+	display: flex;
+	flex-direction: column;
+	gap: 18px;
+	margin-bottom: 100px;
+}
+
+.questionSection{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.upPart{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.upLeft{
+	display: flex;
+}
+
+.numberStyle{
+	color: #102F5E;
+	font-family: Poppins_SemiBold, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	margin-right: 42px;
+}
+.question{
+	color: #102F5E;
+	font-family: Poppins_SemiBold, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
+.upRight{
+	padding: 29px 32px;
+	border-radius: 0px 8px 8px 0px;
+	background: #54999F;
+	border: none;
+	backdrop-filter: blur(7.5px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.answer{
+	color: #2D2D2D;
+	font-family: Poppins_Regular, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 36px;
+	white-space: pre-wrap;
+}
+
+@media only screen and (min-width:768px) and (max-width: 1270px) {
+	.title{
+			font-size: 36px;
+			margin-top: 50px;
+	}
+	.upRight{
+			padding: 20px;
+	}
+	.inside{
+			margin-bottom: 50px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.title{
+			font-size:32px;
+			margin-top: 30px;
+	}
+	.answer{
+			font-size: 18px;
+	}
+	.question{
+			font-size: 18px;
+	}
+	.upRight{
+			padding: 10px;
+	}
+	.inside{
+			margin-bottom: 30px;
+	}
+}
+@media only screen and (max-width: 425px) {
+	.title {
+			text-align: center;
+			white-space: nowrap;
+	}
+}
+@media only screen and (min-width:330px) and (max-width: 400px) {
+	.question{
+			max-width: 260px;
+			font-size: 18px;
+	}
+}
+
+@media only screen and (max-width: 330px) {
+	.question{
+			max-width: 200px;
+			font-size: 18px;
+	}
+}

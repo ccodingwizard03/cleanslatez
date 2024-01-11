@@ -1,0 +1,162 @@
+.whole{
+	padding: 28px;
+	width: 100%;
+	max-width: 1920px;
+}
+
+.main{
+	background-image: url("/assets/images/Image13.webp");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	padding: 25px 32px 38px  32px;
+	max-width: 1860px;
+	height: 780px;
+	border-radius: 46px;
+}
+
+.mainInside{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80%;
+}
+
+.inside{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.left{
+	display: flex;
+	flex-direction: column;
+	max-width: 246px;
+	width: 100%;
+}
+
+.btnDonate{
+	padding: 14px 36px;
+	border-radius: 114px;
+	background: #FFF;
+	border: none;
+	color: #54999F;
+	font-family: Poppins_Bold,sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: 136.023%;
+	letter-spacing: 0.24px;
+	margin-top: 37px;
+	max-width: fit-content;
+	cursor: pointer;
+}
+.btnDonate:hover{
+	box-shadow: 0px 0px 16px 0px #6B9BF2;
+}
+
+.middle{
+	max-width: 857px;
+	width: 100%;
+	color: #FFF;
+	text-align: center;
+	font-family: Poppins_Medium,sans-serif;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 142.523%;
+	letter-spacing: 0.48px;
+	margin-right: 200px;
+}
+@media only screen and (min-width: 1025px) and (max-width: 1090px) {
+	.main {
+			height: fit-content;
+			min-height: 550px;
+	}
+}
+@media only screen  and (min-width: 1000px)  and (max-width: 1440px) {
+	.middle{
+			font-size: 36px;
+	}
+	.btnDonate{
+			margin-top: 22px;
+	}
+}
+
+@media only screen  and (max-width: 1750px) {
+	.inside {
+			gap: 20px;
+			margin-top: 20px
+	}
+}
+
+@media only screen and (min-width: 1001px)  and (max-width: 1024px) {
+	.main {
+			height: fit-content;
+	}
+}
+
+@media only screen  and (min-width: 768px)  and (max-width: 1000px) {
+	.middle{
+			font-size: 32px;
+			margin-right: 0;
+	}
+	.inside {
+			margin-top: 20px;
+	}
+	.left{
+			max-width: 150px;
+	}
+	.btnDonate{
+			font-size: 18px;
+			white-space: nowrap;
+			display: flex;
+			justify-content: center;
+			margin-top: 22px;
+	}
+	.main {
+			height: fit-content;
+	}
+}
+
+@media only screen  and (min-width: 320px)  and (max-width: 767px) {
+	.middle{
+			font-size:28px;
+			margin-right: 0;
+	}
+	.inside{
+			flex-direction: column-reverse;
+	}
+	.btnDonate{
+			font-size: 18px;
+			white-space: nowrap;
+			display: flex;
+			justify-content: center;
+			margin-top: 5px;
+	}
+	.main {
+			height: fit-content;
+	}
+	.swiperDiv{
+			display: none;
+	}
+	.left {
+			justify-content: center;
+			flex-direction: unset
+	}
+}
+
+@media only screen  and (max-width: 425px) {
+	.whole{
+			padding: 25px 12px;
+	}
+	.main{
+			padding: 18px;
+	}
+	.btnDonate{
+			margin-bottom: 12px;
+	}
+}
+

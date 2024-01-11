@@ -1,0 +1,96 @@
+.control{
+    margin-bottom: 24px;
+    width: 100%;
+}
+.control label {
+    display: block;
+    color:rgba(55, 55, 55, 0.90);
+    font-family: Poppins_Regular, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 164.523%;
+    letter-spacing: 0.16px;
+    /*color: #393122;*/
+    margin-bottom: 20px;
+}
+.inputDiv{
+    position: relative;
+    width: 100%;
+}
+.control input,
+.select {
+    width: 100%;
+    padding: 12px 20px;
+    color:rgba(55, 55, 55, 0.90);
+    font-family: Poppins_Regular, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 164.523%;
+    letter-spacing: 0.16px;
+    border-radius: 59px;
+    background: #FFF;
+    border: none
+}
+.control input:focus{
+    outline: none;
+}
+.control input::placeholder{
+    color: rgba(16, 47, 94, 0.60);
+}
+.invalid{
+    border: 2px solid #CB2D25 !important;
+}
+.textDanger{
+    font-family: Poppins_Regular, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #CB2D25;
+    margin-top: 4px;
+    max-width: 520px;
+    width: 100%;
+}
+.inputDiv img{
+    width: 25px;
+    position: absolute;
+    bottom: 11px;
+    right: 35px;
+    cursor:pointer;
+}
+.redOne{
+    color:#CB2D25;
+    margin-left: 5px;
+}
+
+/*@media only screen and (min-width:850px) and (max-width: 1024px) {*/
+/*    .control{*/
+/*        width: 400px;*/
+/*    }*/
+/*    .control label {*/
+/*        width: 400px;*/
+/*    }*/
+/*    .control input{*/
+/*        width: 400px !important;*/
+/*    }*/
+/*    .textDanger{*/
+/*        font-size: 14px;*/
+/*        line-height: 22px;*/
+/*    }*/
+/*}*/
+
+/*@media only screen and (min-width:768px) and (max-width: 850px) {*/
+/*    .control{*/
+/*        width:300px;*/
+/*    }*/
+/*    .control label {*/
+/*        width:300px;*/
+/*    }*/
+/*    .control input{*/
+/*        width:300px !important;*/
+/*    }*/
+/*    .textDanger{*/
+/*        font-size: 14px;*/
+/*        line-height: 22px;*/
+/*    }*/
+/*}*/

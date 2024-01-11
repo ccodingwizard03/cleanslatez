@@ -1,0 +1,138 @@
+.content{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 70px;
+}
+
+.title{
+	color: #084EE4;
+	text-align: center;
+	font-family: Inter-Medium, sans-serif;
+	font-size: 38px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 45px;
+	max-width: 814px;
+	width: 100%;
+	margin-bottom: 12px;
+}
+.subTitle{
+	color: rgba(55, 55, 55, 0.90);
+	text-align: center;
+	font-family: Poppins_Medium, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 153.523%;
+	max-width: 814px;
+	width: 100%;
+	margin-bottom: 24px;
+}
+.titleEffect{
+	color: rgba(55, 55, 55, 0.90);
+	font-family: Poppins_Bold, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 153.523%;
+	max-width: 397px;
+	width: 100%;
+}
+
+.textEffect{
+	color: rgba(55, 55, 55, 0.90);
+	font-family: Poppins_Regular, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 153.523%;
+}
+.whole{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 20px;
+}
+.imgDiv{
+	margin-bottom: 96px;
+	margin-top: 20px;
+}
+@media only screen and (min-width:1024px) and (max-width: 1440px) {
+	.content {
+			margin-top: 30px;
+	}
+	.title{
+			font-size: 28px;
+			max-width: 614px;
+			width: 100%;
+			margin-bottom: 12px;
+	}
+	.whole{
+			padding-left: 20px;
+			padding-right: 20px;
+	}
+	.imgDiv{
+			margin-bottom: 50px;
+	}
+}
+
+@media only screen and (min-width:665px) and (max-width: 1024px) {
+	.content{
+			margin-top: 30px;
+	}
+	.imgDiv{
+			margin-bottom: 30px;
+	}
+	.title{
+			font-size: 32px;
+	}
+	.titleEffect{
+			max-width: 340px;
+			width: 100%;
+	}
+}
+
+
+@media only screen and (min-width:660px) and (max-width: 767px) {
+	.content{
+			margin-top: 30px;
+	}
+	.imgDiv{
+			margin-bottom: 30px;
+	}
+	.title{
+			font-size: 32px;
+	}
+	.titleEffect{
+			max-width: 300px;
+			width: 100%;
+	}
+	.whole{
+			gap: 10px;
+	}
+}
+
+@media only screen and (max-width:660px) {
+	.content{
+			margin-top: 0
+	}
+	.imgDiv{
+			margin-bottom: 30px;
+	}
+	.title{
+			font-size: 32px;
+	}
+	.titleEffect{
+			max-width: unset;
+			width: 100%;
+	}
+	.whole{
+			gap: 0;
+			display: flex;
+			flex-direction: column;
+			justify-content: unset;
+			flex-wrap: unset;
+	}
+}

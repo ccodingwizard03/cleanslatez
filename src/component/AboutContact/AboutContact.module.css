@@ -1,0 +1,109 @@
+.whole{
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background: #71ADCC;
+}
+.main{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.left{
+	display: flex;
+	flex-direction: column;
+	max-width: 678px;
+	width: 100%;
+}
+.blueTitle{
+	color: #084EE4;
+	font-family: Poppins_Regular, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 136.023%;
+	text-transform: uppercase;
+	margin-bottom: 12px;
+}
+.imgDiv{
+	width: 100%;
+}
+.blueSubTitle{
+	color: rgba(255, 255, 255, 0.90);
+	font-family: Poppins_Medium,sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 153%;
+	letter-spacing: 0.24px;
+	padding-bottom: 22px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.30);
+	margin-bottom: 28px;
+}
+.blueText{
+	color: rgba(255, 255, 255, 0.80);
+	font-family: Poppins_Bold,sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: 136.023%; /* 21.764px */
+	letter-spacing: 1.28px;
+	margin-bottom: 16px;
+}
+.btnDiv{
+	margin-top: 4px;
+	margin-bottom: 18px;
+}
+.mailRow{
+	color: #084EE4;
+	font-family: Poppins_Regular, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 136.023%;
+	text-transform: uppercase;
+	margin-top: -12px;
+}
+@media only screen and (min-width:768px) and (max-width: 1274px) {
+	.whole {
+			padding-top: 50px;
+			padding-bottom: 50px;
+	}
+	.left{
+		 margin-right: 20px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.whole {
+			padding-top:30px;
+			padding-bottom: 30px;
+	}
+}
+@media only screen  and (max-width: 1000px) {
+	.imgDiv{
+			max-width: 450px;
+	}
+	.blueSubTitle{
+			line-height: unset;
+			padding-bottom: 12px;
+			margin-bottom: 12px;
+	}
+	.blueText{
+			margin-bottom: 12px;
+	}
+	.blueTitle{
+			font-size: 24px;
+			line-height: unset;
+	}
+	.mailRow{
+			font-size: 24px;
+			line-height: unset;
+	}
+}
+@media only screen and (max-width:767px){
+	.main{
+			flex-direction: column;
+	}
+	.mailRow{
+			margin-bottom: 22px;
+	}
+}

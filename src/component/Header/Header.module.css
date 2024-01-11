@@ -1,0 +1,131 @@
+.whole{
+	display: flex;
+	justify-content: space-between;
+	background-color: transparent;
+	width: 100%;
+}
+
+.left{
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo{
+	margin-right: 31px;
+	cursor: pointer;
+	padding-top: 5px;
+}
+
+.itemsWhole{
+	display: flex;
+	margin-top: 15px;
+}
+.item{
+	color: #FFF;
+	font-family: Poppins_Medium,sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 136.023%;
+	cursor: pointer;
+	margin-right: 24px;
+	padding-bottom: 6px;
+	border-bottom: 1px solid transparent;
+}
+
+.activeItem{
+	border-bottom: 1px solid rgba(255, 255, 255, 0.60);
+	color: #FFF;
+	font-family: Poppins_Medium,sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 136.023%;
+	cursor: pointer;
+	margin-right: 24px;
+	padding-bottom: 6px;
+}
+
+.item:hover{
+	border-bottom: 1px solid rgba(255, 255, 255, 0.60);
+}
+
+.right{
+	display: flex;
+	justify-content: space-between;
+	align-items: center
+}
+.iconStyle{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 27px;
+	cursor: pointer;
+}
+.iconStyle:hover{
+	border-radius:50%;
+	box-shadow:  0 0 0 3px  #6B9BF2;
+}
+.topnav{
+	display: none;
+	justify-content: space-between;
+	background-color: transparent;
+	width: 100%;
+	position: relative;
+}
+
+.upTop{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.burgerIcon{
+	cursor: pointer;
+}
+.itemsBurger{
+	flex-direction: column;
+	margin-top: 20px;
+}
+.itemBurger{
+	color: #FFF;
+	font-family: Poppins_Medium,sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 136.023%;
+	cursor: pointer;
+	margin-right: 24px;
+	padding-bottom: 6px;
+	border-bottom: 1px solid transparent;
+	margin-bottom: 10px;
+}
+.activeItemBurger{
+	border-bottom: 1px solid rgba(255, 255, 255, 0.60);
+	color: #FFF;
+	font-family: Poppins_Medium,sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 136.023%;
+	cursor: pointer;
+	margin-right: 24px;
+	padding-bottom: 6px;
+	max-width: fit-content;
+	margin-bottom: 10px;
+}
+
+.activeItemBurger:hover{
+	border-bottom: 1px solid rgba(255, 255, 255, 0.60);
+	max-width: fit-content;
+}
+
+
+@media only screen  and (max-width: 1090px) {
+	.topnav{
+			display: block;
+	}
+	.whole{
+			display: none;
+	}
+}
