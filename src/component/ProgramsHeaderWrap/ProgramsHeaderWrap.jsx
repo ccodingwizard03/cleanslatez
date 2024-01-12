@@ -19,7 +19,7 @@ const ProgramsHeaderWrap = ({ children }) => {
 							</Link>
 						</div>
 						<div className={classes.middle}>
-							<h1 className={classes.title}>Medical debt relief programs</h1>
+							<h1 className={classes.title}>Medical debt relief program</h1>
 							<div className={classes.text}>
 								Our application program allows individuals that are saddled with
 								past due medical debts to apply for financial relief.

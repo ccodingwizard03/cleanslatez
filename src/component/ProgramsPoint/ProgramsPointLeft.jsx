@@ -6,7 +6,7 @@ const ProgramsPointLeft = () => {
 	return (
 		<section className={"container"}>
 			<div className={classes.main}>
-				<div className={classes.right}>
+				{/* <div className={classes.right}>
 					<h3 className={classes.title}>Wholesale Program</h3>
 					<div className={classes.subTitle}>
 						In this program, we buy past due medical debt from providers and on
@@ -61,7 +61,7 @@ const ProgramsPointLeft = () => {
 						src={medicalImg}
 						alt={"medical debt forgiveness programs"}
 					/>
-				</div>
+				</div> */}
 			</div>
 		</section>
 	);
